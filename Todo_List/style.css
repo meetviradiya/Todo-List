@@ -1,0 +1,80 @@
+/* General styles */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #taskInput {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  #addTaskButton {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80%;
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  /* List item styles */
+  li {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Push text and delete button apart */
+    align-items: center; /* Align items vertically */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+  }
+  
+  button {
+    flex-shrink: 0;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a71d2a;
+  }
+  
