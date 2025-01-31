@@ -17,7 +17,7 @@ function addTask() {
 
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "Delete"; // A simple "X" for the delete button
-
+  deleteBtn.innerHTML = '<i class="fa fa-trash"></i>';
   deleteBtn.onclick = () => {
     li.remove(); // Removes the task when the button is clicked
   };
