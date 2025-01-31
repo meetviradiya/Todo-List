@@ -95,5 +95,7 @@ button:hover {
   li {
     width: 85%;
     margin: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
   }
 }
